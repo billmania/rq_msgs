@@ -1,0 +1,5 @@
+bool charge_enable
+bool fet1_enable
+bool fet2_enable
+---
+bool success
