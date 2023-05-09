@@ -1,5 +1,14 @@
-bool charge_enable
-bool fet1_enable
-bool fet2_enable
+#
+# Control the state of the battery charger and the two FETs.
+# Each attribute can have one of three possible values:
+#
+#  'ON' - enable, even if already enabled
+#  'OFF' - disable, even if already disabled
+#  'IGNORE' - don't change the state
+#
+
+string set_charger
+string set_fet1
+string set_fet2
 ---
 bool success
