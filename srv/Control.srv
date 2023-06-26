@@ -1,5 +1,6 @@
 #
-# Control the state of the battery charger and the two FETs.
+# Control the state of the battery charger, two FETs, and
+# the drive motors.
 # Each attribute can have one of three possible values:
 #
 #  'ON' - enable, even if already enabled
@@ -10,5 +11,6 @@
 string set_charger
 string set_fet1
 string set_fet2
+string set_motors
 ---
 bool success
