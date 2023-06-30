@@ -12,5 +12,6 @@ string set_charger
 string set_fet1
 string set_fet2
 string set_motors
+string set_servos
 ---
 bool success

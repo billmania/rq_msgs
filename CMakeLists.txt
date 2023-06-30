@@ -23,6 +23,8 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Telemetry.msg"
+  "msg/ServoAngle.msg"
+  "msg/ServoAngles.msg"
   "srv/Control.srv"
   DEPENDENCIES std_msgs
  )
