@@ -26,3 +26,11 @@ bool charger_has_power
 # Is the battery being charged?
 #
 bool battery_charging
+#
+# Are the motors powered?
+#
+bool motors_on
+#
+# Are the servos powered?
+#
+bool servos_on
