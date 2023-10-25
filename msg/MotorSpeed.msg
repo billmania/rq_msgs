@@ -1,3 +1,3 @@
 std_msgs/Header header
 
-uint8 max_speed
+uint16 max_rpm
