@@ -6,16 +6,15 @@ uint8 angle_deg
 
 #
 # The amount to increment the current angle, without
-# controlling rate of change. Requires direction and
-# command_type 'I'.
+# controlling rate of change. Requires command_type 2.
 #
-uint8 angle_incr_deg
+int8 angle_incr_deg
 
 #
 # The speed to change the current angle. Requires
-# direction and command_type 'S'.
+# command_type 3.
 #
-uint8 speed_dps
+int8 speed_dps
 
 #
 # 1 when using angle_deg, 2 when using angle_incr_deg, or
