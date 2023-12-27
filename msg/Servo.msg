@@ -2,7 +2,7 @@
 # The angle to achieve, without controlling rate of change.
 # Requires command_type 1.
 #
-uint8 angle_deg
+uint16 angle_deg
 
 #
 # The amount to increment the current angle, without
