@@ -1,0 +1,14 @@
+#
+# Request the lists of all services and all topics, including the
+# relevant interface with each.
+#
+# Each string in the sequence has the format:
+#
+# <name>:<interface>
+#
+# For example, "/cmd_vel:geometry_msgs/msg/TwistStamped"
+#
+
+---
+string[] services
+string[] topics

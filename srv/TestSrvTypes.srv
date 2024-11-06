@@ -1,0 +1,11 @@
+#
+# An interface for testing the rclnodejs.createMessage() method.
+#
+
+string string_attr
+uint8 uint_attr
+int8 int_attr
+bool bool_attr
+float32 float_attr
+---
+bool success

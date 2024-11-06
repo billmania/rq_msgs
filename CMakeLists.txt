@@ -27,6 +27,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Servo.msg"
   "msg/Servos.msg"
   "srv/Control.srv"
+  "srv/ServicesTopics.srv"
+  "srv/TestSrvTypes.srv"
   DEPENDENCIES std_msgs
  )
 
