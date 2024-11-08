@@ -26,6 +26,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorSpeed.msg"
   "msg/Servo.msg"
   "msg/Servos.msg"
+  "msg/GPIOInput.msg"
+  "msg/GPIOOutput.msg"
   "srv/Control.srv"
   DEPENDENCIES std_msgs
  )
