@@ -1,0 +1,7 @@
+#
+# Run a user script, give the name of the script without a full path. Return the exit code
+# from the script execution.
+# 
+string script_name
+---
+int8 return_code

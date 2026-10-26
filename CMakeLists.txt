@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/GPIOInput.msg"
   "msg/GPIOOutput.msg"
   "srv/Control.srv"
+  "srv/RunUserScript.srv"
   DEPENDENCIES std_msgs
  )
 
